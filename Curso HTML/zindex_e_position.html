@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+    
+    <head>
+        <html lang="pt-BR" >
+        <meta charset="utf-8"/>
+        <meta nome="viewport" content="width-device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-compatible" content="ie=edge">        
+        <title>Z-index and overflow css - html</title>
+    </head>
+    <style>
+       div h1{
+            width: 2048px;
+            height: 100px;
+            background-color: blueviolet;
+            border: 2px solid rgb(10, 10, 10);
+       }
+       
+       div{
+           width: 80px;
+           height: 100px;
+           position: relative;
+       } 
+       .bloco1{
+           background-color: blue;
+           top: 10px;
+           left: 80px;
+           z-index: 2;
+       }
+       .bloco2{
+           background-color: red;
+           top: -50px;
+           left: 80px;
+           z-index: 1;
+       }
+       .caixa{
+           height: 100px;
+           width: 250px;
+           padding: 10px;
+           font: 25px Arial, sans-serif;
+           border: 4px solid rgb(14, 0, 77) ;
+           overflow: auto;
+           
+        }
+           
+    </style>
+    <div>
+        <h1>Posição indexada</h1>
+    </div>
+    
+    <body>
+        <div class="bloco1"></div>
+        <div class="bloco2"></div>
+        <div class="caixa">
+            Especificações:
+            Cuba Inox Pia Cozinha Gourmet Luxo Escovada
+            Material: Aço Inox 201
+            Acabamento: Aço Escovado
+            Produto de Alta Qualidade e Luxo
+            Fixação: De Embutir ou Sobrepor
+            Possui Furação para Dispenser de Sabão e Torneira com seus Respectivos Tampões, caso não Utilize algum deles
+            Possui Pintura Externa e Manta Emborrachada abaixo da Cuba Contra Ruídos
+            Utiliza Válvula de 41/2"
+            Dimensões do Produto: Vide última imagem
+        </div>
+    </body>
+
+</html>

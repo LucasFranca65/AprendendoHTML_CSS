@@ -1,0 +1,26 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    width: 700px;
+    padding: 30px;
+    background: beige;    
+}
+
+h1{
+    color: blueviolet;
+    border-bottom: 1px dotted darkgreen; 
+    margin: 0;
+    padding-bottom: 10px;   
+}
+p1{
+    color: orange;
+}
+p2{
+    color: rgb(170, 4, 148);
+
+}
+p3{
+    color: black;
+}
+

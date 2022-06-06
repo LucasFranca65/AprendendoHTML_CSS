@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: black;
+    }
+.row{
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    
+}
+.row div{
+    background: red;
+    height: 80px;
+    float: left;
+    }
+/*linha 1*/
+.linha_1 .coluna{
+    width: 100%;
+}
+/*linha 1*/
+.linha_2 .coluna{
+    width: 48%;
+}
+/*linha 1*/
+.linha_2 .coluna :last-child{
+    float: right;
+}
